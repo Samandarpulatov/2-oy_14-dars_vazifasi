@@ -286,6 +286,174 @@
   padding-block: 5rem;
 }
 
+.p0 {
+  padding: 0px;
+}
+
+.p1 {
+  padding: 10px;
+}
+
+.p2 {
+  padding: 20px;
+}
+
+.p3 {
+  padding: 30px;
+}
+
+.p4 {
+  padding: 40px;
+}
+
+.p5 {
+  padding: 50px;
+}
+
+.p6 {
+  padding: 60px;
+}
+
+.p7 {
+  padding: 70px;
+}
+
+.p8 {
+  padding: 80px;
+}
+
+.p9 {
+  padding: 90px;
+}
+
+.p10 {
+  padding: 100px;
+}
+
+.p11 {
+  padding: 110px;
+}
+
+.p12 {
+  padding: 120px;
+}
+
+.p13 {
+  padding: 130px;
+}
+
+.p14 {
+  padding: 140px;
+}
+
+.p15 {
+  padding: 150px;
+}
+
+.p16 {
+  padding: 160px;
+}
+
+.p17 {
+  padding: 170px;
+}
+
+.p18 {
+  padding: 180px;
+}
+
+.p19 {
+  padding: 190px;
+}
+
+.p20 {
+  padding: 200px;
+}
+
+.m0 {
+  margin: 0px;
+}
+
+.m1 {
+  margin: 10px;
+}
+
+.m2 {
+  margin: 20px;
+}
+
+.m3 {
+  margin: 30px;
+}
+
+.m4 {
+  margin: 40px;
+}
+
+.m5 {
+  margin: 50px;
+}
+
+.m6 {
+  margin: 60px;
+}
+
+.m7 {
+  margin: 70px;
+}
+
+.m8 {
+  margin: 80px;
+}
+
+.m9 {
+  margin: 90px;
+}
+
+.m10 {
+  margin: 100px;
+}
+
+.m11 {
+  margin: 110px;
+}
+
+.m12 {
+  margin: 120px;
+}
+
+.m13 {
+  margin: 130px;
+}
+
+.m14 {
+  margin: 140px;
+}
+
+.m15 {
+  margin: 150px;
+}
+
+.m16 {
+  margin: 160px;
+}
+
+.m17 {
+  margin: 170px;
+}
+
+.m18 {
+  margin: 180px;
+}
+
+.m19 {
+  margin: 190px;
+}
+
+.m20 {
+  margin: 200px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -304,8 +472,33 @@ button {
   all: unset;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .flex {
   display: flex;
+}
+
+.f1 {
+  flex: 1;
+}
+
+.f2 {
+  flex: 2;
+}
+
+.f3 {
+  flex: 3;
+}
+
+.f4 {
+  flex: 4;
+}
+
+.f5 {
+  flex: 5;
 }
 
 .align-start {
@@ -362,4 +555,80 @@ button {
 
 .gap5 {
   gap: 5rem;
+}
+
+.border {
+  border: 2px solid;
+}
+
+.main-header {
+  border: 2px solid;
+  background: #fff;
+  height: 70px;
+}
+.main-header .header-left .position .logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 80px;
+  height: 70px;
+  border-radius: 0px 50px 50px 0px;
+  background: #DEDEDE;
+}
+.main-header .header-left .position .logo .logo-img {
+  width: 40.609px;
+  height: 37.702px;
+  margin-left: 10px;
+}
+.main-header .header-left .position .bars {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  top: center;
+  left: 55px;
+  box-shadow: 2px 2px 5px 1px #e7e6e6;
+}
+.main-header .header-left .search-section img {
+  width: 24.015px;
+  height: 24.015px;
+}
+.main-header .header-left .search-section p {
+  color: #999;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-header .header-right {
+  position: relative;
+}
+.main-header .header-right img {
+  width: 35px;
+  height: 35px;
+}
+.main-header .header-right .soncha::before {
+  content: "1";
+  width: 20px;
+  height: 20px;
+  background: #F7C71A;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -2px;
+  right: 70px;
+}
+.main-header .header-right .girl {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 8px;
 }/*# sourceMappingURL=main.css.map */

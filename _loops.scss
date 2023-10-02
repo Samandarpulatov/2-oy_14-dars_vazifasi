@@ -17,3 +17,14 @@ $tomonlar: (
         }
     }
 }
+
+    @for $i from 0 through 20 {
+        .p#{$i} {
+            padding: $i * 10px;
+        }
+    }
+    @for $i from 0 through 20 {
+        .m#{$i} {
+            margin: $i * 10px;
+        }
+    }
