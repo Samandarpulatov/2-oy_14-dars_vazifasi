@@ -344,6 +344,10 @@ button {
   justify-content: space-evenly;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .gap1 {
   gap: 1rem;
 }
@@ -362,4 +366,219 @@ button {
 
 .gap5 {
   gap: 5rem;
+}
+
+.border {
+  border: 2px solid;
+}
+
+.chat {
+  position: absolute;
+  top: 126px;
+  right: 0;
+  width: 1230px;
+  background: #EAEDF2;
+}
+.chat .chat_menyu h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.chat .chat_menyu a {
+  color: #5E4AE3;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.chat .chat-body .chat-contact-left .group1 {
+  width: 291px;
+  height: 450px;
+  border-radius: 10px;
+  background: #FFF;
+}
+.chat .chat-body .chat-contact-left .group1 .search-item {
+  width: 260px;
+  height: 46px;
+  border-radius: 5px;
+  background: #F2F2F2;
+}
+.chat .chat-body .chat-contact-left .group1 .card {
+  width: 260.831px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.chat .chat-body .chat-contact-left .group1 .card .people {
+  width: 43.689px;
+  height: 65.533px;
+  position: relative;
+}
+.chat .chat-body .chat-contact-left .group1 .card .people img {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+.chat .chat-body .chat-contact-left .group1 .card .people .circle {
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  top: 27px;
+  left: 11px;
+}
+.chat .chat-body .chat-contact-left .group1 .card .people-right h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.chat .chat-body .chat-contact-left .group1 .card .people-right p {
+  color: #999;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.chat .chat-body .chat-contact-left .group1 .card .people-right span {
+  color: #000;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.chat .chat-body .chat-contact-left .group1 .card .icon span {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #FF0051;
+}
+.chat .chat-body .chat-contact-left .group1 .card .icon span p {
+  color: #FFF;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.chat .chat-body .chat-contact-left .group1 .group1-buttons .btn:hover {
+  box-shadow: 0 0 10px 1px;
+}
+.chat .chat-body .chat-contact-left .group1 .group1-buttons .btn-1 {
+  width: 125px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #5E4AE3;
+  color: #fff;
+}
+.chat .chat-body .chat-contact-left .group1 .group1-buttons .btn-2 {
+  width: 125px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #F2F2F2;
+  color: #000;
+}
+.chat .chat-body .chat-contact-left .group1:hover {
+  box-shadow: 0 0 10px 1px;
+}
+.chat .chat-body .chat-contact-left .group2 {
+  width: 291px;
+  height: 247px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+}
+.chat .chat-body .chat-contact-left .group2 .sarlavha {
+  width: 251.656px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.chat .chat-body .chat-contact-left .group2 .sarlavha h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+}
+.chat .chat-body .chat-contact-left .group2 .sarlavha img {
+  width: 16.656px;
+}
+.chat .chat-body .chat-contact-left .group2 .cards {
+  width: 251.656px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.chat .chat-body .chat-contact-left .group2 .cards .letter {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #D3CCFF;
+  color: #5E4AE3;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.chat .chat-body .chat-contact-left .group2 .cards .rasmlari {
+  position: relative;
+}
+.chat .chat-body .chat-contact-left .group2 .cards .rasmlari img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.chat .chat-body .chat-contact-left .group2 .cards .rasmlari p {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  background: #DFD9D9;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  right: -10px;
+}
+.chat .chat-body .chat-contact-left .group2 .cards .rasmlari p span {
+  padding-right: 5px;
+  width: 13px;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.chat .chat-body .chat-contact-left .group2:hover {
+  box-shadow: 0 0 10px 1px;
+}
+.chat .chat-body .chat-screen-right .chat-nav {
+  width: 911px;
+  height: 60px;
+  border-radius: 10px 10px 0px 0px;
+  background: #0F0A2B;
+}
+.chat .chat-body .chat-screen-right .chat-body {
+  width: 911px;
+  height: 716px;
+  background: #140E39;
+}
+.chat .chat-body .chat-screen-right .chat-footer {
+  width: 911px;
+  height: 60px;
+  border-radius: 0px 0px 10px 10px;
+  background: #FFF;
 }/*# sourceMappingURL=main.css.map */

@@ -47,6 +47,9 @@ button{
 .justify-evenly{ 
     justify-content: space-evenly;
 }
+.flex-column{
+    flex-direction: column;
+}
 
 .gap1{
     gap: 1rem;
