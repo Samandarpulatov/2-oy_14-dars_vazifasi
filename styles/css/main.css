@@ -561,16 +561,24 @@ img {
   gap: 5rem;
 }
 
-.border {
-  border: 2px solid;
+.container {
+  width: 100%;
+  background: #EAEDF2;
+  /* main header start */
+  /* main header end */
+  /* header-2 start */
+  /* header-2 end */
+  /* sidebar start */
+  /* sidebar end */
+  /* birinchi branchdagi kodlar!!! */
+  /* ikkinchi branch kodlari */
+  /* ikkinchi branch kodlari */
 }
-
-/* main header start */
-.main-header {
+.container .main-header {
   background: #fff;
   height: 70px;
 }
-.main-header .header-left .position .logo {
+.container .main-header .header-left .position .logo {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -579,12 +587,12 @@ img {
   border-radius: 0px 50px 50px 0px;
   background: #DEDEDE;
 }
-.main-header .header-left .position .logo .logo-img {
+.container .main-header .header-left .position .logo .logo-img {
   width: 40.609px;
   height: 37.702px;
   margin-left: 10px;
 }
-.main-header .header-left .position .bars {
+.container .main-header .header-left .position .bars {
   width: 40px;
   height: 40px;
   background: #fff;
@@ -595,11 +603,11 @@ img {
   left: 55px;
   box-shadow: 2px 2px 5px 1px #e7e6e6;
 }
-.main-header .header-left .search-section img {
+.container .main-header .header-left .search-section img {
   width: 24.015px;
   height: 24.015px;
 }
-.main-header .header-left .search-section p {
+.container .main-header .header-left .search-section p {
   color: #999;
   font-family: Poppins;
   font-size: 15px;
@@ -607,14 +615,14 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-.main-header .header-right {
+.container .main-header .header-right {
   position: relative;
 }
-.main-header .header-right img {
+.container .main-header .header-right img {
   width: 35px;
   height: 35px;
 }
-.main-header .header-right .soncha::before {
+.container .main-header .header-right .soncha::before {
   content: "1";
   width: 20px;
   height: 20px;
@@ -630,16 +638,13 @@ img {
   top: -2px;
   right: 70px;
 }
-.main-header .header-right .girl {
+.container .main-header .header-right .girl {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   margin-bottom: 8px;
 }
-
-/* main header end */
-/* header-2 start */
-.header-2 .header-2-left p {
+.container .header-2 .header-2-left p {
   text-align: center;
   color: #000;
   font-family: Poppins;
@@ -648,13 +653,13 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-.header-2 .header-2-left p i {
+.container .header-2 .header-2-left p i {
   width: 12.667px;
   height: 6.909px;
   flex-shrink: 0;
   color: #000;
 }
-.header-2 .header-2-left p span {
+.container .header-2 .header-2-left p span {
   color: #999;
   font-family: Poppins;
   font-size: 14px;
@@ -662,7 +667,7 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-.header-2 .header-2-right .buttons p {
+.container .header-2 .header-2-right .buttons p {
   width: 94px;
   height: 35px;
   border-radius: 5px;
@@ -675,18 +680,18 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-.header-2 .header-2-right .buttons p p img {
+.container .header-2 .header-2-right .buttons p p img {
   width: 18px;
   height: 18px;
   flex-shrink: 0;
   color: #fff;
 }
-.header-2 .header-2-right .export {
+.container .header-2 .header-2-right .export {
   border-radius: 5px;
   border: 1px solid #D2D0D0;
   background: #E72C79 !important;
 }
-.header-2 .header-2-right p {
+.container .header-2 .header-2-right p {
   width: 110px;
   height: 35px;
   flex-shrink: 0;
@@ -694,11 +699,8 @@ img {
   border: 1px solid #D2D0D0;
   background: #D5D6D9;
 }
-
-/* header-2 end */
-/* sidebar start */
-.sidebar {
-  position: sticky;
+.container .sidebar {
+  position: static;
   top: 134px;
   left: 0px;
   transform: translatex(-90%);
@@ -713,40 +715,36 @@ img {
   background: #5E4AE3;
   padding-right: 5px;
 }
-.sidebar img {
+.container .sidebar img {
   width: 25px;
   height: 25px;
   color: #fff;
 }
-.sidebar img:hover {
+.container .sidebar img:hover {
   width: 30px;
   height: 30px;
 }
-
-.sidebar:hover {
+.container .sidebar:hover {
   transform: translatex(0px);
   transition: all 0.32s ease-in-out 0.1s;
 }
-
-.User1 {
+.container .User1 {
   position: fixed;
   left: 12px;
   bottom: 1px;
   width: 45px;
   height: 67px;
 }
-
-/* sidebar end */
-/* birinchi branchdagi kodlar!!! */
-/* ikkinchi branch kodlari */
-.chat {
-  position: absolute;
-  top: 126px;
-  right: 0;
+.container .chat {
+  width: 911px;
+  height: 716px;
+  height: 100%;
   width: 1230px;
   background: #EAEDF2;
+  margin-top: -650px;
+  margin-left: auto;
 }
-.chat .chat_menyu h2 {
+.container .chat .chat_menyu h2 {
   color: #000;
   font-family: Poppins;
   font-size: 21px;
@@ -754,7 +752,7 @@ img {
   font-weight: 600;
   line-height: normal;
 }
-.chat .chat_menyu a {
+.container .chat .chat_menyu a {
   color: #5E4AE3;
   font-family: Poppins;
   font-size: 16px;
@@ -763,42 +761,42 @@ img {
   line-height: normal;
   text-decoration-line: underline;
 }
-.chat .chat-body .chat-contact-left .group1 {
+.container .chat .chat-body .chat-contact-left .group1 {
   width: 291px;
   height: 450px;
   border-radius: 10px;
   background: #FFF;
 }
-.chat .chat-body .chat-contact-left .group1 .search-item {
+.container .chat .chat-body .chat-contact-left .group1 .search-item {
   width: 260px;
   height: 46px;
   border-radius: 5px;
   background: #F2F2F2;
 }
-.chat .chat-body .chat-contact-left .group1 .card {
+.container .chat .chat-body .chat-contact-left .group1 .card {
   width: 260.831px;
   height: 60px;
   flex-shrink: 0;
 }
-.chat .chat-body .chat-contact-left .group1 .card .people {
+.container .chat .chat-body .chat-contact-left .group1 .card .people {
   width: 43.689px;
   height: 65.533px;
   position: relative;
 }
-.chat .chat-body .chat-contact-left .group1 .card .people img {
+.container .chat .chat-body .chat-contact-left .group1 .card .people img {
   width: 30px;
   height: 30px;
   flex-shrink: 0;
   border-radius: 50%;
 }
-.chat .chat-body .chat-contact-left .group1 .card .people .circle {
+.container .chat .chat-body .chat-contact-left .group1 .card .people .circle {
   width: 9px;
   height: 9px;
   position: absolute;
   top: 27px;
   left: 11px;
 }
-.chat .chat-body .chat-contact-left .group1 .card .people-right h1 {
+.container .chat .chat-body .chat-contact-left .group1 .card .people-right h1 {
   color: #000;
   font-family: Poppins;
   font-size: 15px;
@@ -806,7 +804,7 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-.chat .chat-body .chat-contact-left .group1 .card .people-right p {
+.container .chat .chat-body .chat-contact-left .group1 .card .people-right p {
   color: #999;
   font-family: Poppins;
   font-size: 12px;
@@ -814,7 +812,7 @@ img {
   font-weight: 300;
   line-height: normal;
 }
-.chat .chat-body .chat-contact-left .group1 .card .people-right span {
+.container .chat .chat-body .chat-contact-left .group1 .card .people-right span {
   color: #000;
   font-family: Poppins;
   font-size: 10px;
@@ -822,14 +820,14 @@ img {
   font-weight: 300;
   line-height: normal;
 }
-.chat .chat-body .chat-contact-left .group1 .card .icon span {
+.container .chat .chat-body .chat-contact-left .group1 .card .icon span {
   width: 15px;
   height: 15px;
   flex-shrink: 0;
   border-radius: 50%;
   background: #FF0051;
 }
-.chat .chat-body .chat-contact-left .group1 .card .icon span p {
+.container .chat .chat-body .chat-contact-left .group1 .card .icon span p {
   color: #FFF;
   text-align: right;
   font-family: Poppins;
@@ -838,10 +836,10 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-.chat .chat-body .chat-contact-left .group1 .group1-buttons .btn:hover {
+.container .chat .chat-body .chat-contact-left .group1 .group1-buttons .btn:hover {
   box-shadow: 0 0 10px 1px;
 }
-.chat .chat-body .chat-contact-left .group1 .group1-buttons .btn-1 {
+.container .chat .chat-body .chat-contact-left .group1 .group1-buttons .btn-1 {
   width: 125px;
   height: 46px;
   flex-shrink: 0;
@@ -849,7 +847,7 @@ img {
   background: #5E4AE3;
   color: #fff;
 }
-.chat .chat-body .chat-contact-left .group1 .group1-buttons .btn-2 {
+.container .chat .chat-body .chat-contact-left .group1 .group1-buttons .btn-2 {
   width: 125px;
   height: 46px;
   flex-shrink: 0;
@@ -857,37 +855,37 @@ img {
   background: #F2F2F2;
   color: #000;
 }
-.chat .chat-body .chat-contact-left .group1:hover {
+.container .chat .chat-body .chat-contact-left .group1:hover {
   box-shadow: 0 0 10px 1px;
 }
-.chat .chat-body .chat-contact-left .group2 {
+.container .chat .chat-body .chat-contact-left .group2 {
   width: 291px;
-  height: 247px;
+  height: 367px;
   flex-shrink: 0;
   border-radius: 10px;
   background: #FFF;
 }
-.chat .chat-body .chat-contact-left .group2 .sarlavha {
+.container .chat .chat-body .chat-contact-left .group2 .sarlavha {
   width: 251.656px;
   height: 27px;
   flex-shrink: 0;
 }
-.chat .chat-body .chat-contact-left .group2 .sarlavha h1 {
+.container .chat .chat-body .chat-contact-left .group2 .sarlavha h1 {
   color: #000;
   font-family: Poppins;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
 }
-.chat .chat-body .chat-contact-left .group2 .sarlavha img {
+.container .chat .chat-body .chat-contact-left .group2 .sarlavha img {
   width: 16.656px;
 }
-.chat .chat-body .chat-contact-left .group2 .cards {
+.container .chat .chat-body .chat-contact-left .group2 .cards {
   width: 251.656px;
   height: 27px;
   flex-shrink: 0;
 }
-.chat .chat-body .chat-contact-left .group2 .cards .letter {
+.container .chat .chat-body .chat-contact-left .group2 .cards .letter {
   width: 25px;
   height: 25px;
   flex-shrink: 0;
@@ -900,15 +898,15 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-.chat .chat-body .chat-contact-left .group2 .cards .rasmlari {
+.container .chat .chat-body .chat-contact-left .group2 .cards .rasmlari {
   position: relative;
 }
-.chat .chat-body .chat-contact-left .group2 .cards .rasmlari img {
+.container .chat .chat-body .chat-contact-left .group2 .cards .rasmlari img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
-.chat .chat-body .chat-contact-left .group2 .cards .rasmlari p {
+.container .chat .chat-body .chat-contact-left .group2 .cards .rasmlari p {
   width: 25px;
   height: 25px;
   flex-shrink: 0;
@@ -918,7 +916,7 @@ img {
   top: 3px;
   right: -10px;
 }
-.chat .chat-body .chat-contact-left .group2 .cards .rasmlari p span {
+.container .chat .chat-body .chat-contact-left .group2 .cards .rasmlari p span {
   padding-right: 5px;
   width: 13px;
   color: #000;
@@ -929,25 +927,23 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-.chat .chat-body .chat-contact-left .group2:hover {
+.container .chat .chat-body .chat-contact-left .group2:hover {
   box-shadow: 0 0 10px 1px;
 }
-.chat .chat-body .chat-screen-right .chat-nav {
+.container .chat .chat-body .chat-screen-right .chat-nav {
   width: 911px;
   height: 60px;
   border-radius: 10px 10px 0px 0px;
   background: #0F0A2B;
 }
-.chat .chat-body .chat-screen-right .chat-body {
+.container .chat .chat-body .chat-screen-right .chat-body {
   width: 911px;
   height: 716px;
   background: #140E39;
 }
-.chat .chat-body .chat-screen-right .chat-footer {
+.container .chat .chat-body .chat-screen-right .chat-footer {
   width: 911px;
   height: 60px;
   border-radius: 0px 0px 10px 10px;
   background: #FFF;
-}
-
-/* ikkinchi branch kodlari *//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
