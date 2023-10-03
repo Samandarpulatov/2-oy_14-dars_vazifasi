@@ -2,3 +2,220 @@
 @import "shared";
 
 
+.border{
+    border: 2px solid;
+}
+
+// .container{
+//     position: relative;
+//     max-width: 1355px;
+//     margin: 20px auto;
+// }
+    /* main header start */
+    .main-header {
+    // border: 2px solid;
+    background: #fff;
+    height: 70px;
+    .header-left {
+        
+        .position {
+            .logo{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                width: 80px;
+                height: 70px;
+                border-radius: 0px 50px 50px 0px;
+                background: #DEDEDE;
+                .logo-img{
+                    width: 40.609px;
+                    height: 37.702px;
+                    margin-left: 10px;
+                }
+            }
+            .bars{
+                width: 40px;
+                height: 40px;
+                background: #fff;
+                border-radius: 50%;
+                padding: 10px;
+                
+                position: absolute;
+                top: center;
+                left: 55px;
+                box-shadow: 2px 2px 5px 1px #e7e6e6;
+            }
+        }
+        
+        .search-section {
+            img{
+                width: 24.015px;
+                height: 24.015px;
+            }
+            p{
+                color: #999;
+                font-family: Poppins;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    .header-right {
+        position: relative;
+        
+        img{
+            width: 35px;
+            height: 35px;
+        }
+        
+        .soncha::before{
+            content: "1";
+            width: 20px;
+            height: 20px;
+            background: #F7C71A;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 12px;
+            font-family: sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            position: absolute;
+            top: -2px;
+            right: 70px;
+        }
+        .girl{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-bottom: 8px;
+        }
+    }
+}
+/* main header end */
+
+
+/* header-2 start */
+.header-2{
+    .header-2-left{
+        p{
+            text-align: center;
+            color: #000;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            i{
+                width: 12.667px;
+                height: 6.909px;
+                // transform: rotate(90deg);
+                flex-shrink: 0;
+                color: #000;
+            }
+        }
+        p{
+            span{
+                color: #999;
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        
+    }
+    .header-2-right{
+        .buttons p{
+            width: 94px;
+            height: 35px;
+            // flex-shrink: 0;
+            border-radius: 5px;
+            border: 1px solid #D2D0D0;
+            
+            background: #3C337D;
+            color: #FFF;
+            // text-align: center;
+            font-family: Poppins;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            p img{
+                width: 18px;
+                height: 18px;
+                flex-shrink: 0;
+                color: #fff;
+            }
+        }
+        .export{
+            border-radius: 5px;
+            border: 1px solid #D2D0D0;
+            background: #E72C79 !important;
+        }
+        p{
+            width: 110px;
+            height: 35px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            border: 1px solid #D2D0D0;
+            background: #D5D6D9;
+        }
+    }
+}
+/* header-2 end */
+
+/* sidebar start */
+
+.sidebar{
+    // position: absolute;
+    position: sticky;
+    top: 134px;
+    left: 0px;
+
+    transform: translatex(-90%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+    width: 80px;
+    height: 655px;
+    border-radius: 0px 50px 50px 0px;
+    background: #5E4AE3;
+    padding-right: 5px;
+    img{
+        width: 25px;
+        height: 25px;
+        color: #fff;
+    }
+    img:hover{
+        width: 30px;
+        height: 30px;
+    }
+}
+.sidebar:hover{
+    transform: translatex(0px);
+    transition: all .32s ease-in-out .1s;
+}
+
+.User1{
+    position: fixed;
+    left: 12px;
+    bottom: 1px;
+    width: 45px;
+    height: 67px;
+}
+
+/* sidebar end */
+
+
+/* birinchi branchdagi kodlar!!! */
+
+
