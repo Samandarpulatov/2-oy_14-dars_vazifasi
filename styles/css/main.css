@@ -561,6 +561,7 @@ img {
   border: 2px solid;
 }
 
+/* main header start */
 .main-header {
   border: 2px solid;
   background: #fff;
@@ -631,4 +632,105 @@ img {
   height: 40px;
   border-radius: 50%;
   margin-bottom: 8px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* main header end */
+/* header-2 start */
+.header-2 .header-2-left p {
+  text-align: center;
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-2 .header-2-left p i {
+  width: 12.667px;
+  height: 6.909px;
+  flex-shrink: 0;
+  color: #000;
+}
+.header-2 .header-2-left p span {
+  color: #999;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-2 .header-2-right .buttons p {
+  width: 94px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #D2D0D0;
+  background: #3C337D;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-2 .header-2-right .buttons p p img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: #fff;
+}
+.header-2 .header-2-right .export {
+  border-radius: 5px;
+  border: 1px solid #D2D0D0;
+  background: #E72C79 !important;
+}
+.header-2 .header-2-right p {
+  width: 110px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #D2D0D0;
+  background: #D5D6D9;
+}
+
+/* header-2 end */
+/* sidebar start */
+.sidebar {
+  position: fixed;
+  top: 144px;
+  left: 0px;
+  transform: translatex(-90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 45px;
+  width: 80px;
+  height: 655px;
+  border-radius: 0px 50px 50px 0px;
+  background: #5E4AE3;
+  padding-right: 5px;
+}
+.sidebar img {
+  width: 25px;
+  height: 25px;
+  color: #fff;
+}
+.sidebar img:hover {
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar:hover {
+  transform: translatex(0px);
+  transition: all 0.32s ease-in-out 0.1s;
+}
+
+.User1 {
+  position: fixed;
+  left: 12px;
+  bottom: 1px;
+  width: 45px;
+  height: 67px;
+}
+
+/* sidebar end *//*# sourceMappingURL=main.css.map */
