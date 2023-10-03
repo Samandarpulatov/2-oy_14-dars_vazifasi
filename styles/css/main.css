@@ -563,7 +563,6 @@ img {
 
 /* main header start */
 .main-header {
-  border: 2px solid;
   background: #fff;
   height: 70px;
 }
@@ -695,8 +694,8 @@ img {
 /* header-2 end */
 /* sidebar start */
 .sidebar {
-  position: fixed;
-  top: 144px;
+  position: sticky;
+  top: 134px;
   left: 0px;
   transform: translatex(-90%);
   display: flex;

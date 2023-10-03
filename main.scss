@@ -2,13 +2,19 @@
 @import "shared";
 
 
+
 .border{
     border: 2px solid;
 }
 
-/* main header start */
-.main-header {
-    border: 2px solid;
+// .container{
+//     position: relative;
+//     max-width: 1355px;
+//     margin: 20px auto;
+// }
+    /* main header start */
+    .main-header {
+    // border: 2px solid;
     background: #fff;
     height: 70px;
     .header-left {
@@ -34,7 +40,7 @@
                 background: #fff;
                 border-radius: 50%;
                 padding: 10px;
-
+                
                 position: absolute;
                 top: center;
                 left: 55px;
@@ -59,12 +65,12 @@
     }
     .header-right {
         position: relative;
-
+        
         img{
             width: 35px;
             height: 35px;
         }
-
+        
         .soncha::before{
             content: "1";
             width: 20px;
@@ -78,7 +84,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
+            
             position: absolute;
             top: -2px;
             right: 70px;
@@ -123,7 +129,7 @@
                 line-height: normal;
             }
         }
-
+        
     }
     .header-2-right{
         .buttons p{
@@ -132,7 +138,7 @@
             // flex-shrink: 0;
             border-radius: 5px;
             border: 1px solid #D2D0D0;
-
+            
             background: #3C337D;
             color: #FFF;
             // text-align: center;
@@ -168,8 +174,9 @@
 /* sidebar start */
 
 .sidebar{
-    position: fixed;
-    top: 144px;
+    // position: absolute;
+    position: sticky;
+    top: 134px;
     left: 0px;
 
     transform: translatex(-90%);
